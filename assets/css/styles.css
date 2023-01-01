@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #4b4e6d;
+}
+
+body{
+    background-color: #92b4f4;
+    overflow: hidden;
+}
+
+
+/* HEADER */
+
+header{
+    width: 100vw;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+header .logo{
+    display: flex;
+    cursor: pointer;
+}
+
+header .logo img{
+    width: 50px;
+
+}
+
+header .logo h1{
+    font-size: 50px;
+    
+}
+
+header nav ul{
+    display: flex;
+    gap: 80px;
+}
+
+header nav ul li a{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+header nav ul li a:hover{
+    color: #dff3e4;
+    transition: 0.2s all ease-in-out;
+}
+
+header nav ul li input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #4b4e6d;
+    border-radius: 20px;
+}
+
+header nav ul li input:focus{
+    outline: none;
+    border: 2px solid #dff3e4;
+    transition: 0.2s all ease-in-out;
+}
+
+.icon{
+    background: url(../../magnifying-glass-solid.svg) no-repeat scroll 3px 3px;
+    padding-left:40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+/* MAIN */
+
+main{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+
+}
+
+main .left-side{
+    width: 40%;
+    height: 100vh;
+    margin: 100px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .left-side h1{
+    font-size: 5rem;
+    display: flex;
+    gap: 25px;
+    margin: 0 20px;
+}
+
+main .left-side h1 .new-way{
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+main .left-side span{
+    font-size: 9rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #dff3e4;
+}
+
+main .left-side p{
+    font-size: 1.6rem;
+    text-align: justify;
+
+}
+
+main .left-side span{
+
+    text-shadow: 7px 7px 1px #4B4E6D;
+}
+
+main .left-side .website{
+    text-align: center;
+    font-size: 1.4rem;
+    opacity: 0.8;
+
+}
+
+main .left-side .website:hover{
+    text-decoration: underline;
+}
+
+
+
+main .left-side input{
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #4b4e6d;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    margin: 30px auto;
+    cursor: pointer;
+    color: #dff3e4;
+}
+
+main .left-side input:hover{
+    background-color: #dff3e4;
+    color: #4b4e6d;
+    border: none;
+    
+    transition: 0.3s all ease-in-out;
+}
+
+main .right-side{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .right-side img{
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+
+}
