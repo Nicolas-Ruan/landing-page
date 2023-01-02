@@ -155,11 +155,15 @@ main .left-side input{
 }
 
 main .left-side input:hover{
-    background-color: #dff3e4;
-    color: #4b4e6d;
     border: none;
+
+    transform: scale(1.1);
+    -webkit-box-shadow: 10px 10px 0px -1px rgba(223,243,228,1);
+    -moz-box-shadow: 10px 10px 0px -1px rgba(223,243,228,1);
+    box-shadow: 10px 10px 0px -1px rgba(223,243,228,1);
     
-    transition: 0.3s all ease-in-out;
+    
+    transition: 0.25 s ease-in;
 }
 
 main .right-side{
